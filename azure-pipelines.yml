@@ -7,3 +7,4 @@ steps:
   - task: RunMATLABCommand@0
     inputs:
       command: myscript
+  - task: RunMATLABTests@0
