@@ -1,0 +1,9 @@
+pool:
+  vmImage: Ubuntu 16.04
+steps:
+  - task: InstallMATLAB@0
+    inputs:
+      release: R2020a
+  - task: RunMATLABCommand@0
+    inputs:
+      command: myscript
